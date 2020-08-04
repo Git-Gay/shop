@@ -3,19 +3,23 @@
         font-size: 75px!important;
     }
 }
+li{
+    list-style: none;
+}
 body{
     min-width: 320px;
     max-width: 750px;
     width: 10rem;
+    height: 100%;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0 auto;
     line-height: 1.5;
+    background-color:#efeff4 ;
 }
 .search-content{
     width: 10rem;
     height: 1.1733333rem;
     position: fixed;
-   
     top: .133333rem;
     left: 50%;
     transform: translateX(-50%);
@@ -71,7 +75,7 @@ body{
 
  .message{
      width: 100%;
-     height: 1.866667rem;
+     height: 1.6rem;
      background-color: #efeff4;
  }
 .message .contain{
@@ -88,6 +92,59 @@ body{
 }
 .contain img{
     margin-right: .133333rem;
+    width: .16rem;
+    height: .6rem;
 }
-
-
+.nav{
+    width: 100%;
+    height: 3.733333rem;
+    background-color:#ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: .133333rem 0;
+    box-sizing: border-box;
+    color:#000000
+}
+.nav li{
+    width: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: .213333rem;
+}
+.nav li img{
+    width: 1.066667rem;
+    height: 1.066667rem;
+}
+.nav li p{
+    margin-top: 0;
+    margin-bottom:0 ;
+}
+.other {
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: .2rem;
+    background-color: #FFFFFF;
+}
+.other a {
+    border-radius: .106667rem;
+    width: 80%;
+    height: 80%;
+}
+.other a img{
+    width: 100%;
+    height: 100%;
+}
+.bottom-setion{
+    width: 100%;
+    margin-top: .2rem;
+    height: 4rem;
+    background: url(../img/自营商品.png) no-repeat;
+    background-size: 100% 100%;
+}
