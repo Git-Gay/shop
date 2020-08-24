@@ -1,0 +1,271 @@
+//color
+@p_color: #dadbfe;
+@text_color:#2b244a;
+@text_gray:#6b687b;
+@footer-color:#f0d5be;
+:root{
+    overflow-x: hidden;
+}
+@media screen and (min-width:1920px){
+    html {
+        font-size: 192px!important;
+    }
+}
+// 根据分辨率切换图片
+@media screen and (min-width: 360px) and (max-width: 768px) {  
+    body { 
+        background: url(../img/内容底板@2x.png) no-repeat;
+    }
+    .header {
+        background: url(../img/网页顶部@2x.png) no-repeat;
+    }
+  }
+
+img {
+    width: .229167rem;
+    height: .229167rem;
+}
+body {
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    background: url(../img/内容底板.png) no-repeat;
+    background-size: 100% auto;
+}
+// header section
+.header {
+    width: 100%;
+    height: 1.65625rem;
+    background: url(../img/网页顶部.png) no-repeat;
+    background-size: 100% 100%;
+}
+// container section
+.container {
+    width: 4.817708rem;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .title {
+        width: 2.395833rem;
+        height: .677083rem;
+        margin-top: .208333rem;
+        background: url(../img/编组\ 18.png) no-repeat;
+        background-size: 100% 100%;
+    }
+}
+  //one section
+  .container .one-section {
+    width: 4.739583rem;
+    height: 3.75rem;
+    background: url(../img/矩形.png);
+    background-size: 100% 100%;
+    margin-top: .572917rem;
+    .one-top {
+        width: 100%;
+        height: 50%;
+        position: relative;
+        background: url(../img/Fill.png) no-repeat;
+        background-size: 100% 100%;
+        .top-left {
+            width: 2.25rem;
+            height: 1.796875rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            top: -.15625rem;
+            left: .208333rem;
+            background: url(../upload/编组17.png) no-repeat;
+            background-size: 100% 100%;
+        }
+        .top-right {
+            width: 2.25rem;
+            height: 100%;
+            position: absolute;
+            top: -0.260417rem;
+            right: 0;
+            box-sizing: border-box;
+            // float: right;
+            padding-left: .104167rem;
+           .one-logo {
+               width: .859375rem;
+               height: .380208rem;
+               background: url(../img/one.png) no-repeat;
+               background-size: 100% 100%;
+           }
+           .right-title {
+                width: 85%;
+                margin-top: .104167rem;
+                color: @p_color;
+                font-size: .09375rem;
+                text-align: justify;
+                display: flex;
+                align-items:center ;
+                font-weight: 700;
+                .line {
+                    width: 0;
+                    height: .15625rem ;
+                    border:.010417rem  @p_color solid;
+                    display: inline-block;
+                    margin-right: .078125rem;
+                }
+           }
+           .right-decription {
+                width: 85%;
+                color: @text_gray;
+                font-size: .09375rem;
+                text-align: justify;
+                display:webkit-box !important;
+                overflow:hidden;
+                text-overflow:ellipsis;
+                word-break:break-all;
+                -webkit-box-orient:vertical;
+                -webkit-line-clamp: 2;
+                .buyBtn {
+                    width: .78125rem;
+                    height: .208333rem;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background: url(../img/按钮back.png) no-repeat;
+                    background-size: 100% 100%;  
+                    font-size: .072917rem;
+                    font-weight: 700;
+                    color: @text_color;
+                    float: right;
+                }
+            }
+        }
+    }
+    .mini-title {
+        width: 1.354167rem;
+        height: .15625rem;
+        line-height: .15625rem;
+        text-align: center;
+        color: @text_gray;
+        font-size: .083333rem;
+        letter-spacing: .015625rem;
+        margin: .052083rem auto;
+        background: url(../img/编组14.png) no-repeat;
+        background-size: 100% 50%;
+        background-position-y: 50% ;
+    }
+    .one-bottom {
+        width: 3.333333rem;
+        height: 1.25rem;
+        margin: .260417rem auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: @text_gray;
+        font-size: .083333rem;
+        letter-spacing: .015625rem;
+        .btm-left {
+            width: 1.5625rem;
+            height: 1.25rem;
+            .left-vedio {
+                width: 1.5625rem;
+                height: .885417rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background: url(../upload/编组27.png) no-repeat;
+                background-size: 100% 100%;
+            }
+        }
+        .btm-right {
+            width: 1.5625rem;
+            height: 1.25rem;
+            .right-vedio{
+                width: 1.5625rem;
+                height: .885417rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background: url(../upload/编组29.png) no-repeat;
+                background-size: 100% 100%;
+            }
+        }
+    }  
+}
+//footer section
+.footer {
+    width: 4.817708rem;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: .260417rem;
+    .footer-first {
+        width: 3.4375rem;
+        height: .833333rem;
+        background: url(../img/标题2.png) no-repeat;
+        background-size: 100% 100%;
+    }
+    .footer-nav {
+        width: 100%;
+        height: 2.395833rem;
+        margin-top: .260417rem;
+        background: url(../img/编组56.png) no-repeat;
+        background-size: 100% 100%;
+    }
+    .footer-second {
+        width: 3.4375rem;
+        height: .833333rem;
+        background: url(../img/标题3.png) no-repeat;
+        background-size: 100% 100%;
+        margin-top: .260417rem;
+    }
+    .footer-buy {
+        width: 1.458333rem;
+        height: 1.25rem;
+        color: @footer-color;
+        font-size: .083333rem;
+        margin-top: .260417rem ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        img{
+            width: .520833rem;
+            height: .520833rem;
+        }
+         .weixin{
+           font-size: .072917rem;
+           margin-top: 0;  
+        }
+
+    }
+}
+//二维码悬浮窗
+.suspension-window {
+    width: .6875rem;
+    height: 1.234375rem;
+    cursor: pointer;
+    position: fixed;
+    top: 3.541667rem;
+    right: 1.614583rem;
+    background: url(../upload/编组28.png) no-repeat;
+    background-size: 100% 100%;
+}
+//视频窗
+.vedio-section {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: none;
+    overflow: hidden;
+    background-color: #000000;
+    .vedios {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+}

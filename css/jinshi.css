@@ -1,0 +1,270 @@
+:root {
+  overflow-x: hidden;
+}
+@media screen and (min-width: 1920px) {
+  html {
+    font-size: 192px!important;
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 768px) {
+  body {
+    background: url(../img/内容底板@2x.png) no-repeat;
+  }
+  .header {
+    background: url(../img/网页顶部@2x.png) no-repeat;
+  }
+}
+img {
+  width: 0.229167rem;
+  height: 0.229167rem;
+}
+body {
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  background: url(../img/内容底板.png) no-repeat;
+  background-size: 100% auto;
+}
+.header {
+  width: 100%;
+  height: 1.65625rem;
+  background: url(../img/网页顶部.png) no-repeat;
+  background-size: 100% 100%;
+}
+.container {
+  width: 4.817708rem;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container .title {
+  width: 2.395833rem;
+  height: 0.677083rem;
+  margin-top: 0.208333rem;
+  background: url(../img/编组\ 18.png) no-repeat;
+  background-size: 100% 100%;
+}
+.container .one-section {
+  width: 4.739583rem;
+  height: 3.75rem;
+  background: url(../img/矩形.png);
+  background-size: 100% 100%;
+  margin-top: 0.572917rem;
+}
+.container .one-section .one-top {
+  width: 100%;
+  height: 50%;
+  position: relative;
+  background: url(../img/Fill.png) no-repeat;
+  background-size: 100% 100%;
+}
+.container .one-section .one-top .top-left {
+  width: 2.25rem;
+  height: 1.796875rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -0.15625rem;
+  left: 0.208333rem;
+  background: url(../upload/编组17.png) no-repeat;
+  background-size: 100% 100%;
+}
+.container .one-section .one-top .top-right {
+  width: 2.25rem;
+  height: 100%;
+  position: absolute;
+  top: -0.260417rem;
+  right: 0;
+  box-sizing: border-box;
+  padding-left: 0.104167rem;
+}
+.container .one-section .one-top .top-right .one-logo {
+  width: 0.859375rem;
+  height: 0.380208rem;
+  background: url(../img/one.png) no-repeat;
+  background-size: 100% 100%;
+}
+.container .one-section .one-top .top-right .right-title {
+  width: 85%;
+  margin-top: 0.104167rem;
+  color: #dadbfe;
+  font-size: 0.09375rem;
+  text-align: justify;
+  display: flex;
+  align-items: center ;
+  font-weight: 700;
+}
+.container .one-section .one-top .top-right .right-title .line {
+  width: 0;
+  height: 0.15625rem;
+  border: 0.010417rem #dadbfe solid;
+  display: inline-block;
+  margin-right: 0.078125rem;
+}
+.container .one-section .one-top .top-right .right-decription {
+  width: 85%;
+  color: #6b687b;
+  font-size: 0.09375rem;
+  text-align: justify;
+  display: webkit-box !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.container .one-section .one-top .top-right .right-decription .buyBtn {
+  width: 0.78125rem;
+  height: 0.208333rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(../img/按钮back.png) no-repeat;
+  background-size: 100% 100%;
+  font-size: 0.072917rem;
+  font-weight: 700;
+  color: #2b244a;
+  float: right;
+}
+.container .one-section .mini-title {
+  width: 1.354167rem;
+  height: 0.15625rem;
+  line-height: 0.15625rem;
+  text-align: center;
+  color: #6b687b;
+  font-size: 0.083333rem;
+  letter-spacing: 0.015625rem;
+  margin: 0.052083rem auto;
+  background: url(../img/编组14.png) no-repeat;
+  background-size: 100% 50%;
+  background-position-y: 50% ;
+}
+.container .one-section .one-bottom {
+  width: 3.333333rem;
+  height: 1.25rem;
+  margin: 0.260417rem auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #6b687b;
+  font-size: 0.083333rem;
+  letter-spacing: 0.015625rem;
+}
+.container .one-section .one-bottom .btm-left {
+  width: 1.5625rem;
+  height: 1.25rem;
+}
+.container .one-section .one-bottom .btm-left .left-vedio {
+  width: 1.5625rem;
+  height: 0.885417rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(../upload/编组27.png) no-repeat;
+  background-size: 100% 100%;
+}
+.container .one-section .one-bottom .btm-right {
+  width: 1.5625rem;
+  height: 1.25rem;
+}
+.container .one-section .one-bottom .btm-right .right-vedio {
+  width: 1.5625rem;
+  height: 0.885417rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(../upload/编组29.png) no-repeat;
+  background-size: 100% 100%;
+}
+.footer {
+  width: 4.817708rem;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0.260417rem;
+}
+.footer .footer-first {
+  width: 3.4375rem;
+  height: 0.833333rem;
+  background: url(../img/标题2.png) no-repeat;
+  background-size: 100% 100%;
+}
+.footer .footer-nav {
+  width: 100%;
+  height: 2.395833rem;
+  margin-top: 0.260417rem;
+  background: url(../img/编组56.png) no-repeat;
+  background-size: 100% 100%;
+}
+.footer .footer-second {
+  width: 3.4375rem;
+  height: 0.833333rem;
+  background: url(../img/标题3.png) no-repeat;
+  background-size: 100% 100%;
+  margin-top: 0.260417rem;
+}
+.footer .footer-buy {
+  width: 1.458333rem;
+  height: 1.25rem;
+  color: #f0d5be;
+  font-size: 0.083333rem;
+  margin-top: 0.260417rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer .footer-buy img {
+  width: 0.520833rem;
+  height: 0.520833rem;
+}
+.footer .footer-buy .weixin {
+  font-size: 0.072917rem;
+  margin-top: 0;
+}
+.suspension-window {
+  width: 0.6875rem;
+  height: 1.234375rem;
+  cursor: pointer;
+  position: fixed;
+  top: 3.541667rem;
+  right: 1.614583rem;
+  background: url(../upload/编组28.png) no-repeat;
+  background-size: 100% 100%;
+}
+.vedio-section {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: none;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.vedio-section .vedios {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.vedio-section .close-btn {
+  width: 0.3125rem;
+  height: 0.3125rem;
+  position: absolute;
+  top: 0.520833rem;
+  right: 0.260417rem;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: #f1f1f1;
+}
+.vedio-section .close-btn img {
+  width: 100%;
+  height: 100%;
+}

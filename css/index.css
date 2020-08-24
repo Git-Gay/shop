@@ -134,8 +134,41 @@ body{
 }
 .other a {
     border-radius: .106667rem;
-    width: 80%;
-    height: 80%;
+    width: 8rem;
+    height: 3.2rem;
+    animation: scale 1s infinite linear alternate;
+    -webkit-animation: scale 1s infinite linear alternate;
+}
+.other a:hover{
+   
+}
+@keyframes scale{
+    from{
+        width: 8rem;
+        height: 3.2rem;
+    }
+    50%{
+        width: 8.1rem;
+        height: 3.3rem;
+    }
+    to{
+        width: 8.2rem;
+        height: 3.4rem;
+    }
+}
+@-webkit-keyframes scale{
+    from{
+        width: 8rem;
+        height: 3.2rem;
+    }
+    50%{
+        width: 8.1rem;
+        height: 3.3rem;
+    }
+    to{
+        width: 8.2rem;
+        height: 3.4rem;
+    }
 }
 .other a img{
     width: 100%;
